@@ -1,15 +1,9 @@
 #include <stdio.h>
-
 /**
- *
- *  *main - print lowercase alpha a-z but remove 'q' and 'e'
- *
- *   *Return: Always 0 (Success)
- *
- *    */
-
+ *main - print lowercase alpha a-z but remove 'q' and 'e'
+ *Return: Always 0 (Success)
+ */
 int main(void)
-
 {
 char alpha = 'a';
 while (alpha <= 'z')
@@ -22,5 +16,4 @@ alpha++;
 }
 putchar('\n');
 return (0);
-
 }
