@@ -2,7 +2,7 @@
 /**
  *main - print a num pair from 00-99 but no repeats (00 01, 00 02, 00 03,...)
  *Return: Always 0 (Success)
- */
+  */
 int main(void)
 {
 int tens;
@@ -22,7 +22,8 @@ putchar(ones);
 putchar(' ');
 putchar(t);
 putchar(o);
-if (!((tens == '9' && ones == '8') && (t == '9' && o == '9')))
+if (!((tens == '9' && ones == '8') &&
+(t == '9' && o == '9')))
 {
 putchar(',');
 putchar(' ');
